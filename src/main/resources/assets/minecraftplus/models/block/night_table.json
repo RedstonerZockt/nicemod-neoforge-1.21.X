@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "minecraft:block/dark_oak_planks",
 		"2": "minecraft:block/oak_planks",
-		"3": "minecraftplus:block/globus",
+		"3": "minecraftplus:block/globe",
 		"particle": "minecraft:block/dark_oak_planks"
 	},
 	"elements": [

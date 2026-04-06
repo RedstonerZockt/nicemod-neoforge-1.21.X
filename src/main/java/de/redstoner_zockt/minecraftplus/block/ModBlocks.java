@@ -30,7 +30,7 @@ public class ModBlocks {
             () -> new NightTableBlock(BlockBehaviour.Properties.of()
                     .noOcclusion()));
 
-    public static final DeferredBlock<Block> GLOBUS = registerBlock("globus",
+    public static final DeferredBlock<Block> GLOBUS = registerBlock("globe",
             () -> new GlobusBlock(BlockBehaviour.Properties.of()
                     .noOcclusion()));
 

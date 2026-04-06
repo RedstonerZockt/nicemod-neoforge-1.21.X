@@ -43,6 +43,11 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(LampBlock.CLICKED) ? 15 : 0)
                     .noOcclusion()));
 
+    public static final DeferredBlock<Block> DESK_LAMP = registerBlock("desk_lamp",
+            () -> new DeskLampBlock(BlockBehaviour.Properties.of().strength(2f)
+                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(DeskLampBlock.CLICKED) ? 15 : 0)
+                    .noOcclusion()));
+
     public static final DeferredBlock<Block> TOILET = registerBlock("toilet",
             () -> new ToiletBlock(BlockBehaviour.Properties.of()
                     .noOcclusion()));

@@ -20,9 +20,9 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(new ItemStack(ModBlocks.TABLE.get()));
                         output.accept(new ItemStack(ModBlocks.NIGHT_TABLE.get()));
-                        output.accept(new ItemStack(ModBlocks.GLOBUS.get()));
+                        //output.accept(new ItemStack(ModBlocks.GLOBUS.get()));
                         output.accept(new ItemStack(ModBlocks.LAMP.get()));
-                        output.accept(new ItemStack(ModBlocks.DESK_LAMP.get()));
+                        //output.accept(new ItemStack(ModBlocks.DESK_LAMP.get()));
                         output.accept(new ItemStack(ModBlocks.PLATE.get()));
                         output.accept(new ItemStack(ModBlocks.CHAIR.get()));
                         output.accept(new ItemStack(ModBlocks.TOILET.get()));

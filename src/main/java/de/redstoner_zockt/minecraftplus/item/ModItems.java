@@ -1,10 +1,14 @@
 package de.redstoner_zockt.minecraftplus.item;
 
 import de.redstoner_zockt.minecraftplus.Minecraftplus;
+import de.redstoner_zockt.minecraftplus.block.custom.SteakPlateSlicedBlock;
 import de.redstoner_zockt.minecraftplus.item.custom.HelmetItem;
 import de.redstoner_zockt.minecraftplus.item.custom.KnifeItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
